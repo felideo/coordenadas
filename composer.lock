@@ -1,0 +1,127 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d7b53e337f694019613361188081443f",
+    "packages": [
+        {
+            "name": "felideo/debug2",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/felideo/debug2.git",
+                "reference": "91267e4e519a65a91cda87ba9fad71c3ea19dc31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/felideo/debug2/zipball/91267e4e519a65a91cda87ba9fad71c3ea19dc31",
+                "reference": "91267e4e519a65a91cda87ba9fad71c3ea19dc31",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/debug2.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Felideo Desittale Paravimnce",
+                    "email": "felideo@gmail.com"
+                }
+            ],
+            "description": "Debug2 is a function developed to debug PHP code of form easy, simple, pretty print, fast and safe.",
+            "keywords": [
+                "Pretty print",
+                "dd",
+                "debug",
+                "full backtrace",
+                "print_r",
+                "profiler",
+                "var_dump"
+            ],
+            "time": "2021-08-31T16:25:36+00:00"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "8.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "c97c96d5d422b4085aba32ace096c3e404dde607"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/c97c96d5d422b4085aba32ace096c3e404dde607",
+                "reference": "c97c96d5d422b4085aba32ace096c3e404dde607",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "API-Client",
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http-client",
+                "http-proxy",
+                "json",
+                "php",
+                "php-curl",
+                "php-curl-library",
+                "proxy",
+                "requests",
+                "restful",
+                "web-scraper",
+                "web-scraping ",
+                "web-service",
+                "xml"
+            ],
+            "time": "2021-06-23T14:34:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php-curl-class/php-curl-class": "^8.10",
+        "felideo/debug2": "^1.0"
+    }
+}
